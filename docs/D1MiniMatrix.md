@@ -1,20 +1,11 @@
 # A shield for a D1 mini ESP8266 board that connects to a RGB LED Matrix panel.
 
-Description
-Specs
-Shipping
-Volume Pricing
-22 Reviews
 What is it?
 This kit is a shield for easily controlling RGB LED Matrix using a D1 Mini ESP8266 board. This board takes advantages of the cables that come included with most displays.
 
 This board is designed to work with the awesome PX Matrix arduino library by 2dom
 
-There are also versions available for ESP32 boards!
-
-TinyPICO Matrix Shield
-ESP32 Matrix Shield (Mini32)
-Why did you make it?
+## Why did you make it?
 The RGB LED matrix panels are one of the coolest displays you can use with an Arduino, but there is quite a bit of wiring to connect them up and also they are a little awkward to power. The panels are only about $20 from aliexpress/eBay
 
 This board makes wiring them really simple! The board just slots directly onto the input header pin, uses the ribbon cable that comes provided with most of these panels to connect the pins of the output header and has screw terminals to connect the power cable that comes with most panels.
@@ -22,7 +13,7 @@ This board makes wiring them really simple! The board just slots directly onto t
 What makes it special?
 This really makes using the display as simple as possible. Making use of the cables that comes with the display allows the board to be smaller and less expensive.
 
-Examples sketches for using these displays.
+## Examples sketches for using these displays.
 Here are some Github Repos with examples of things that can be done using the board. - Some images and a peanut butter jelly time dancing banana
 
 Dance
@@ -36,7 +27,7 @@ Tetris text animation, a library for displaying text and numbers being made up o
 
 YT Tetris
 
-What is included?
+## What is included?
 Each D1 Mini Matrix Shield is a kit and comes with the following:
 
 D1 Mini Matrix Shield PCB

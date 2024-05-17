@@ -69,10 +69,9 @@ export default defineConfig({
             collapsed: false,
             items: [
               { text: 'PowerBloughr', link: '/PowerBloughr' },
-              { text: 'Huzzah 32 Debug Shield', link: '/Huzzah-debug' },
               { text: 'D1 Mini TFT Shield', link: '/D1-TFT' },
               { text: 'D1 Mini Nunchuck Shield', link: '/D1-Nunchuck' },
-              { text: 'ESP32 Mini Debug Shield', link: '/ESP32-debug' },
+              { text: 'ESP32 Debug Shields', link: '/ESP32-debug' },
               { text: 'ESP32Matrix', link: '/ESP32Matrix' },
               { text: 'D1MiniMatrix', link: '/D1MiniMatrix' },
               { text: 'I2S Matrix', link: '/I2S-Matrix' }
