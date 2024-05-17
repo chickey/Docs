@@ -10,4 +10,6 @@ The documentation here is to help you get up and running with the product you've
 
 These documents are a work in progress and will be updated over time as new software and products are released.
 
+We have a small community on discord [Link](https://discord.gg/J7GnxDRaHj)
+
 If there is any feedback please don't hesitate to contact us.
