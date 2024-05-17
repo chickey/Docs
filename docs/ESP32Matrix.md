@@ -75,4 +75,4 @@ To use the display you will need to install the following libraries
 
 [Example sketch of using the board can be found here](https://github.com/witnessmenow/WiFi-Tetris-Clock), it is the WiFi Tetris clock as seen below
 
-The Tetris clocks are multiplying [pic.twitter.com/wFd73TEDbT](pic.twitter.com/wFd73TEDbT)
+The Tetris clocks are multiplying [pic.twitter.com/wFd73TEDbT](https://pic.twitter.com/wFd73TEDbT)
