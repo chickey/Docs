@@ -7,7 +7,7 @@ hero:
   text: "Home for small electronic projects"
   tagline: Designed and assembled in the UK
   image:
-    src: ./Logo-Large.png
+    src: ./Logo-Large.webp
     alt: Logo
   actions:
     - theme: brand
