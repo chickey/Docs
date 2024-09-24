@@ -1,7 +1,9 @@
 ---
 outline: deep
 ---
-# Hardware
+# Getting Started
+
+## Hardware
 The configurations shown are designed for my hardware solution which can be found at
 
 [https://store.eplop.co.uk/products/solis-rs485-to-wifi-adaptor
@@ -15,7 +17,7 @@ Board            |  Cable
 
 
 
-# Software
+## Software
 
 Esphome is used as the sotware choice which integrates seamlessly with Home Assistant.  the configuration is held in yaml files which can then be easily modifed as necessary.  I have provided a breakdown of the yaml configuration here [Solis ESPHOME](solis-ESPHOME.md)
 

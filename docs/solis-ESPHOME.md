@@ -11,7 +11,7 @@ They are designed for my hardware solution which can be found at
 This includes a custom PCB which then uses a Wemos D1 mini board and then combined with a custom made cable which allows the board to get both the data from the inverter but also be powered from the inverter itself so no external power is required.
 
 ## Software
-This is a repository with some examples for integrating a solis inverter into your Home Assistant setup.  The files here are provided as examples but even if they are not for your exact model they should still work so long as the physical connections are the same and it's a case of reading different registers.
+The following is breakdown of the sections of the example configuration files to allow you to create the setup that you require.
 
 ### Configuration file
 
