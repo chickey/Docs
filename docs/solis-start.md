@@ -11,7 +11,7 @@ This includes a custom PCB which then uses a Wemos D1 mini board and then combin
 
 Board            |  Cable
 :-------------------------:|:-------------------------:
-![](https://github.com/chickey/RS485-WiFi-EPEver/blob/master/images/Board-Image.PNG?raw=true)  |  ![](./IMG_1996.png)
+![](https://github.com/chickey/RS485-WiFi-EPEver/blob/master/images/Board-Image.PNG?raw=true)  |  ![](/IMG_1996.png)
 
 
 
