@@ -2,48 +2,35 @@
 outline: deep
 ---
 
-# Runtime API Examples
+# Troubleshooting
 
-This page demonstrates usage of some of the runtime APIs provided by VitePress.
+## Hardware
 
-The main `useData()` API can be used to access site, theme, and page data for the current page. It works in both `.md` and `.vue` files:
+They are designed for my hardware solution which can be found at
 
-```md
-<script setup>
-import { useData } from 'vitepress'
+[https://store.eplop.co.uk/products/solis-rs485-to-wifi-adaptor
+](https://store.eplop.co.uk/products/solis-rs485-to-wifi-adaptor)
 
-const { theme, page, frontmatter } = useData()
-</script>
+This includes a custom PCB which then uses a Wemos D1 mini board and then combined with a custom made cable which allows the board to get both the data from the inverter but also be powered from the inverter itself so no external power is required.  
 
-## Results
+- If you are attempting to get this working with a self made solution you will need to check that you have created your solution in a similar way to the way my board functions such as pins used etc.
 
-### Theme Data
-<pre>{{ theme }}</pre>
+- When first plugged in the wemos board will flash it's LED once which will let you know that you are successfully getting power across the custome cable.
 
-### Page Data
-<pre>{{ page }}</pre>
+- You must ensure that you do not twist the cable separate from the plug as you can easiliy snap off the soldered connections.
 
-### Page Frontmatter
-<pre>{{ frontmatter }}</pre>
+## Software
+
+One of the most common issues is the ID of the device being different.  The ID is a unique identifyer which allows you to have several inverters connected and monitored.  Because of this the ID which you have set on your inverter must match the setting in your yaml file.  Typically 10 is used for Solis inverters but it may have been changed by your installed.  The number is hex so in the example below it is set to "A" and if you wanted to set ID 1 then it would be "address: 0x1"
+
+```
+modbus_controller:
+  - id: solis
+    ## the Modbus device addr
+    address: 0xA
+    modbus_id: modbus1
+    setup_priority: -10
+    command_throttle: 300ms
+    update_interval: 30s
 ```
 
-<script setup>
-import { useData } from 'vitepress'
-
-const { site, theme, page, frontmatter } = useData()
-</script>
-
-## Results
-
-### Theme Data
-<pre>{{ theme }}</pre>
-
-### Page Data
-<pre>{{ page }}</pre>
-
-### Page Frontmatter
-<pre>{{ frontmatter }}</pre>
-
-## More
-
-Check out the documentation for the [full list of runtime APIs](https://vitepress.dev/reference/runtime-api#usedata).
