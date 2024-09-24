@@ -22,5 +22,5 @@ We sell on 4 different platforms currently Ebay, Tindie, Lectronz and woocommerc
 </p>
 
 <p align="center" width="100%">
-    <a href="https://store.eplop.co.uk" alt="Buy it on woocommerce"><img src="/woocommerce-logo-color-white.png" style="width:200px;height:80px;"/></a>
+    <a href="https://store.eplop.co.uk" alt="Buy it on woocommerce"><img src="https://cdn.shopify.com/shopifycloud/brochure/assets/brand-assets/shopify-logo-inverted-primary-logo-bdc6ddd67862d9bb1f8c559e1bb50dd233112ac57b29cac2edcf17ed2e1fe6fa.svg" style="width:200px;height:80px;"/></a>
 </p>

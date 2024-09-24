@@ -48,8 +48,7 @@ export default defineConfig({
               { text: 'ESPHOME', link: '/2pin-ESPHOME' },
               { text: 'TroubleShooting', link: '/2pin-troubleshooting' }
             ]
-          },
-          { text: 'Other models', link: '/api-examples' }
+          }
         ]
       },
       {

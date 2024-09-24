@@ -2,48 +2,30 @@
 outline: deep
 ---
 
-# Runtime API Examples
+# Configuration
 
-This page demonstrates usage of some of the runtime APIs provided by VitePress.
+Using the default software there are many options in the configuration page.  In reality however these come down to a just a few items which can be groupe together.
 
-The main `useData()` API can be used to access site, theme, and page data for the current page. It works in both `.md` and `.vue` files:
+<p align="center" width="100%">
+<img src="/image-1-1024x505.png" alt="I sell on Tindie" >
+</p>
 
-```md
-<script setup>
-import { useData } from 'vitepress'
+If you wish to push the solar stats to an InfluxDB the following details below must be populated.
 
-const { theme, page, frontmatter } = useData()
-</script>
+- InfluxDB IP:
+- InfluxDB Port:
+- InfluxDB Database:
+- InfluxDB Username:
+- InfluxDB Password:
+- InfluxDB Toggle Swtich
 
-## Results
+If you wish to push the solar stats to a MQTT server the following details below must be populated.
 
-### Theme Data
-<pre>{{ theme }}</pre>
+- MQTT IP:
+- MQTT Port:
+- MQTT Database:
+- MQTT Username:
+- MQTT Password:
+- MQTT Toggle Swtich
 
-### Page Data
-<pre>{{ page }}</pre>
-
-### Page Frontmatter
-<pre>{{ frontmatter }}</pre>
-```
-
-<script setup>
-import { useData } from 'vitepress'
-
-const { site, theme, page, frontmatter } = useData()
-</script>
-
-## Results
-
-### Theme Data
-<pre>{{ theme }}</pre>
-
-### Page Data
-<pre>{{ page }}</pre>
-
-### Page Frontmatter
-<pre>{{ frontmatter }}</pre>
-
-## More
-
-Check out the documentation for the [full list of runtime APIs](https://vitepress.dev/reference/runtime-api#usedata).
+The final option is to toggle the load which controls the output on the Solar Charge Controller.

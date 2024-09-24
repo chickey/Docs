@@ -5,7 +5,7 @@ outline: deep
 # USB Keep Alive Kit
 
 I made this device for working with small devices to keep powerbanks/power supplies alive as they can frequently auto shutoff if they believe the device is not on as it is drawing so little power.  Once assembled the device shall look as per below (resistor colours may vary and also the case colour may vary if you’ve ordered one)
-The 3D case design is on [Thingiverse](https://www.github.com/chickey)
+The 3D case design is on [Thingiverse](https://www.thingiverse.com/thing:4557971)
 
 
 <p align="center" width="100%">
@@ -44,5 +44,21 @@ Take care and try not to apply the heat in one location too long.
 
 Above is a diagram showing which resistors and capacitors match up to the corresponding markings on the pcb.
 
-## Can the power of the pulse be adjusted ?
+## Troubleshooting
+
+### Will it work with X powerbank
+
+As you may appreciate there are thousands of powerbanks out there which means it's impossible to be able to test and verify with every powerbank.  We have chosen a middle ground regarding how much power the device draws to balance out keeping a powerbank alive while not affecting battery life too much.  If people can send in examples of where it has worked it would be greatly appreciated and we can expand this list.
+
+[Working Powerbank 1](https://amzn.to/3ZApauE})
+
+### Can it keep a powerbank alive on it's own
+
+***NO*** the keep alive device is designed to work in conjunction with another small powersource.
+
+### Can it work with power delivery / QC
+
+***NO*** the keep alive is only designed to work at 5v and so can only keep alive 5v devices and if you try to plug it into a PD powersupply you risk damaging the keepalive and other hardware.
+
+### Can the power of the pulse be adjusted ?
 Yes by modifying the resistor R1 you can change the power of the pulse.  The default is 33r which gives a pulse of around 100ma.  By lowering the value of this resistor you can increase the power of the pulse and by raising it you can lower the power usage.
