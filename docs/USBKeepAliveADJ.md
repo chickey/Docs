@@ -47,6 +47,3 @@ As you may appreciate there are thousands of powerbanks out there which means it
 
 ***NO*** the keep alive is only designed to work at 5v and so can only keep alive 5v devices and if you try to plug it into a PD powersupply you risk damaging the keepalive and other hardware.
 
-### Can the power of the pulse be adjusted ?
-Yes by modifying the resistor R1 you can change the power of the pulse.  The default is 33r which gives a pulse of around 100ma.  By lowering the value of this resistor you can increase the power of the pulse and by raising it you can lower the power usage.  As this is an SMD product it shall however take some care and proper tools (hot air recommended).
-
