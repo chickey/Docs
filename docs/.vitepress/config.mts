@@ -10,7 +10,7 @@ export default defineConfig({
       { text: 'Home', link: '/' },
       { text: 'Documentation', link: '/Intro' },
       { text: 'About', link: '/about' },
-      { text: 'Store', link: '/stores' }
+      { text: 'Where to buy', link: '/stores' }
     ],
 
     sidebar: [
@@ -55,6 +55,7 @@ export default defineConfig({
         text: 'USB KeepAlive',
         collapsed: false,
         items: [
+          { text: 'Adjustable version', link:'/USBKeepAliveADJ'},
           { text: 'SMD Fixed Version', link: '/USBKeepAliveSMD' },
           { text: 'KIT version', link: '/USBKeepAliveKIT' }
         ]

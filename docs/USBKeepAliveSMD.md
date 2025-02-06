@@ -10,7 +10,7 @@ USB-C|USB-A
 :-------------------------:|:-------------------------:
 <img src="/KeepAlive-USBC.jpg" alt="drawing" width="400"/>  | <img src="/KeepAlive-SMD.jpg" alt="drawing" width="400"/>
 
-The SMD version were developed from my Through Hole kit version for those who could not or did not want to assemble it and just wanted a ready to go product.
+The SMD version was developed from my Through Hole kit version for those who could not or did not want to assemble it and just wanted a ready to go product.
 
 [Keep Alive Kit](https://store.eplop.co.uk/products/th-keepalive-kit?utm_source=copyToPasteBoard&utm_medium=product-links&utm_content=web)
 
