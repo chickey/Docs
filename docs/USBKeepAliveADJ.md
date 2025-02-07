@@ -8,7 +8,7 @@ The Adjustable USBKeepAlives is a new variant with a USB-A connector, if there i
 
 The keep alive circuit is almost identical to the non adjustable version but now the strength of the pulse to be adjusted by selecting the required pulse on the slide switch.  We have created this new version to be try and have greater compatibilty with a wider range of USB powerbanks so if your not sure if it shall work then the adjustable version is the best choice.
 
-<img src="/KeepAlive-ADJ.png" alt="drawing" width="500"/>
+<img src="/KeepAliveADJ-Top.jpg" alt="drawing" width="400"/>
 
 ## Usage
 
