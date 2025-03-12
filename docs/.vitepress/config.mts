@@ -16,6 +16,14 @@ export default defineConfig({
     sidebar: [
       { text: 'Getting Started', link: '/Intro' },
       {
+        text: 'Baguette',
+        collapsed: false,
+        items: [
+          {text: 'Baguette S3', link: '/BaguetteS3' }          
+        ]
+      },
+
+      {
         text: 'Solar',
         collapsed: false,
         items: [
